@@ -16,7 +16,7 @@ public class Android
 {
 	public static void main(String[] args) {
 	
-		String originalMessage="{'name' : 'mkyong','salary' : '100001'}";
+		String originalMessage="{'name' : 'abccc','salary' : '100001'}";
 		byte[] originalMessageByte=originalMessage.getBytes();
 		FileInputStream publicKeyStream;
 		String encryptionType="AES";
