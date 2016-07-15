@@ -1,10 +1,4 @@
-//package org.npci.upi.security.commonsapp;
-
-
-/**
- * Created by NeeloyG on 02-02-2016.
- */
-package com.pgp.util;
+package com.mastek.security.pgp.util;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -68,6 +62,10 @@ import org.bouncycastle.openpgp.operator.jcajce.JcePBESecretKeyEncryptorBuilder;
 
 import android.util.Base64;
 
+/**
+ * @author mangesh13413
+ *
+ */
 public class CryptLib {
 
     public byte[] SHA256(String paramString)throws Exception{

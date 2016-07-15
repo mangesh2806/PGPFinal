@@ -1,4 +1,4 @@
-package com.pgp;
+package com.mastek.security.pgp;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,8 +8,12 @@ import java.security.NoSuchProviderException;
 import org.bouncycastle.openpgp.PGPException;
 import org.bouncycastle.openpgp.PGPSecretKey;
 
-import com.pgp.util.CryptLib;
+import com.mastek.security.pgp.util.CryptLib;
 
+/**
+ * @author mangesh13413
+ *
+ */
 public class TestCryptLib 
 {
 	public static void main(String[] args) {

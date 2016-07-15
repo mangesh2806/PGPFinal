@@ -1,4 +1,4 @@
-package com.pgp;
+package com.mastek.security.pgp;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
@@ -9,9 +9,13 @@ import java.security.NoSuchProviderException;
 import org.bouncycastle.openpgp.PGPException;
 import org.bouncycastle.util.encoders.Base64;
 
-import com.pgp.util.CryptLib;
+import com.mastek.security.pgp.util.CryptLib;
 
 
+/**
+ * @author mangesh13413
+ *
+ */
 public class Android 
 {
 	public static void main(String[] args) {

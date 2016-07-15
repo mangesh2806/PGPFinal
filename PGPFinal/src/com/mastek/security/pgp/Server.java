@@ -1,4 +1,4 @@
-package com.pgp;
+package com.mastek.security.pgp;
 
 import java.io.IOException;
 import java.security.InvalidKeyException;
@@ -8,8 +8,12 @@ import java.security.SignatureException;
 
 import org.bouncycastle.openpgp.PGPException;
 
-import com.pgp.util.CryptLib;
+import com.mastek.security.pgp.util.CryptLib;
 
+/**
+ * @author mangesh13413
+ *
+ */
 public class Server 
 {
 	
